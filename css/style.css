@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    background-color: #265073;
+    text-align: center;
+    padding-block: 22px;
+    color: #F1FADA;
+}
+
+#formBook,
+#formSearch,
+#hasilSearch,
+#rakBlmSelesai,
+#rakSelesai {
+    width: 50%;
+    margin: 30px auto;
+    padding: 30px 40px 40px 40px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 3px 4px rgba(38, 80, 115, 0.22);
+    -moz-box-shadow: 0px 0px 3px 4px rgba(38, 80, 115, 0.22);
+    box-shadow: 0px 0px 3px 4px rgba(38, 80, 115, 0.22);
+    background-color: #F1FADA;
+    color: #265073;
+    position: relative;
+    overflow: hidden;
+}
+
+#formBook label,
+#ceklis span {
+    font-weight: bolder;
+}
+
+#formBook h2 {
+    text-align: center;
+}
+
+#formBook input[type=text],
+#formBook input[type=number] {
+    margin-block: 12px;
+    padding: 7px 15px;
+    font-size: 18px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+#ceklis {
+    display: flex;
+    align-items: center;
+}
+
+#ceklis span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#ceklis input[type=checkbox] {
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+#formBook input[type=submit] {
+    margin-block: 30px 0;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(38, 80, 115);
+    color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+#formSearch {
+    border-radius: 10px;
+}
+
+#formSearch h2 {
+    text-align: center;
+}
+
+#formSearch input[type=text] {
+    width: 93.5%;
+    padding: 15px 20px;
+    margin-block: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#formSearch input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    background-color: #265073;
+}
+
+.rak {
+    background-color: rgb(45, 149, 150);
+    color: #F1FADA;
+    margin-block: 20px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.rak h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.rak p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnFinish,
+.btnDelete,
+.btnEdit {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.btnFinish {
+    background-color: #265073;
+}
+
+.btnDelete {
+    background-color: #ff0000;
+}
+
+.btnEdit {
+    background-color: #008000;
+}

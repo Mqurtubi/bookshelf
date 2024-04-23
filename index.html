@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSHELF</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>BOOKSHELF APPS</h1>
+        </header>
+        <div id="formBook">
+            <h2>Masukkan Buku Baru</h2>
+            <form action="" id="form">
+                <label for="">Judul</label><br>
+                <input type="text" name="" id="judul"><br>
+                <label for="">Penulis</label><br>
+                <input type="text" name="" id="penulis"><br>
+                <label for="">Tahun</label><br>
+                <input type="number" name="" id="tahun" min="1900" max="2024" step="1"><br>
+                <div id="ceklis">
+                    <span>Selesai Dibaca</span><input type="checkbox" name="" id="selesaiDibaca"><br>
+                </div>
+                <input type="submit" id="submit" value="Masukkan ke Rak Belum Selesai Dibaca">
+            </form>
+        </div>
+        <div id="formSearch">
+            <h2>Cari Buku</h2>
+            <form action="" id="search">
+                <input type="text" name="" id="inputSearch" placeholder="Masukkan judul buku"><br>
+                <input type="submit" value="Cari">
+            </form>
+        </div>
+        <div id="rakBlmSelesai" hidden>
+
+        </div>
+
+        <div id="rakSelesai" hidden>
+
+        </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
